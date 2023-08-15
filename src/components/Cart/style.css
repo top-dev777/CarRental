@@ -1,0 +1,150 @@
+/* ===================== CART ======================*/
+.cart-table-left h3,
+.order-summury-box h3 {
+  font-size: 22px;
+  color: #001238;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  display: block;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 45px;
+}
+
+.cart-table-left thead {
+  background: #f4f4f5 none repeat scroll 0 0;
+  border: medium none;
+}
+
+.cart-table-left thead th {
+  border: medium none;
+  color: #001238;
+}
+
+.gauto-cart-preview {
+  width: 115px;
+  height: 100px;
+  text-align: center;
+}
+
+.gauto-cart-preview img {
+  width: 100%;
+  height: 100%;
+}
+
+.table th,
+.table td {
+  vertical-align: baseline;
+  border-top: 0px;
+  border-bottom: 1px solid #f0f0ff;
+}
+
+.cart-table-left table td p {
+  color: #001238;
+  text-transform: capitalize;
+}
+
+.gauto-cart-quantity > input {
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 70px;
+}
+
+.gauto-cart-close {
+  text-align: center;
+}
+
+.gauto-cart-total {
+  font-weight: 500;
+}
+
+.gauto-cart-close a {
+  color: #333;
+  width: 35px;
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.cart-clear a {
+  display: inline-block;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #001238;
+  margin-right: 15px;
+}
+
+.cart-clear {
+  margin-top: 20px;
+}
+
+.cart-clear a:last-child {
+  margin-right: 1px;
+}
+
+.cart-clear a:hover {
+  color: #ec3323;
+}
+
+.order-summury-box {
+  padding: 30px;
+  background: #f4f4f5 none repeat scroll 0 0;
+}
+
+.order-summury-box table {
+  width: 100%;
+}
+
+.order-summury-box table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.order-summury-box table tr:last-child {
+  border-bottom: 0px solid #ddd;
+}
+
+.order-summury-box table td {
+  padding: 10px 0;
+  color: #001238;
+}
+
+.checkout-action {
+  text-align: right;
+  margin-top: 30px;
+}
+
+.checkout-action a.gauto-btn {
+  color: #ec3323;
+  margin: 0;
+}
+
+.checkout-action a.gauto-btn:hover {
+  color: #fff;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .order-summury-box {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .order-summury-box {
+    margin-top: 30px;
+  }
+  .checkout-action {
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .order-summury-box {
+    margin-top: 30px;
+  }
+  .checkout-action {
+    text-align: left;
+  }
+}

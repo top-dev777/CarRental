@@ -1,0 +1,100 @@
+/* ===================== HERO ======================*/
+.gauto-slider-area {
+  position: relative;
+}
+
+.gauto-main-slide {
+  background-color: #eee;
+  background-position: center center;
+  background-size: cover;
+  height: 640px;
+}
+
+.slider-content-holder {
+  width: 100%;
+  text-align: center;
+}
+
+.slider-text {
+  text-align: left;
+}
+
+.gauto-main-caption {
+  display: table;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.58) none repeat scroll 0 0;
+}
+
+.gauto-caption-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.slider-text h2 {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.slider-text h2 span {
+  color: #fff;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.slider-text p {
+  color: #fff;
+  font-size: 26px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .slider-text h2 {
+    font-size: 50px;
+  }
+  .gauto-main-slide {
+    height: 460px;
+  }
+}
+@media (max-width: 767px) {
+  .slider-text {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .slider-text p {
+    font-size: 20px;
+  }
+  .slider-text h2 {
+    font-size: 35px;
+  }
+  .gauto-main-slide {
+    height: 380px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .slider-text {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .slider-text p {
+    font-size: 20px;
+  }
+  .slider-text h2 {
+    font-size: 35px;
+  }
+  .gauto-main-slide {
+    height: 380px;
+  }
+}

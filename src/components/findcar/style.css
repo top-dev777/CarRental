@@ -1,0 +1,173 @@
+/* ===================== FIND CAR ======================*/
+
+
+.gauto-find-area {
+  margin-top: -75px;
+}
+
+.find-box {
+  background: #fff url(../../img/find-box-bg.png) no-repeat scroll 0 0;
+  padding: 30px;
+  position: relative;
+  z-index: 999;
+  box-shadow: 3px 0 29px rgba(0, 0, 0, 0.26);
+}
+
+.find-text h3 {
+  color: #fff;
+  font-size: 33px;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  line-height: 40px;
+}
+
+.find-form p input,
+.find-form p select,
+.e-control-wrapper {
+  width: 100% !important;
+  border: 2px solid #f0f0ff !important;
+  padding: 5px 10px;
+  height: 45px !important;
+  color: #111 !important;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+input#datepicker,
+input#timepicker {
+  height: auto !important;
+  border: none !important;
+  font-size: 14px;
+  font-weight: 500;
+}
+.find-form p input:focus,
+.find-form p select:focus {
+  border: 2px solid #ec3323 !important;
+}
+
+.find-form form p {
+  margin: 15px 0;
+  position: relative;
+}
+
+.datepicker {
+  z-index: 9999;
+}
+
+.datepicker {
+  border: 2px solid #f0f0ff;
+  margin-top: -5px;
+}
+
+.datepicker .cell.day.selected,
+.datepicker .cell.month.selected,
+.datepicker .cell.year.selected,
+.datepicker .cell.decade.selected {
+  background: #ca3d26 none repeat scroll 0 0;
+  color: #fff;
+}
+
+.datepicker .cell.day:hover,
+.datepicker .cell.month:hover,
+.datepicker .cell.year:hover,
+.datepicker .cell.decade:hover {
+  background: #ca3d26 none repeat scroll 0 0;
+  color: #fff;
+}
+
+.popover.clockpicker-popover.bottom.clockpicker-align-left {
+  border: 2px solid #f0f0ff;
+}
+
+.text-primary,
+.clockpicker-popover .popover-title {
+  color: #ef4836;
+}
+
+.datepicker .row.header a {
+  margin: 0 3px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.datepicker .day {
+  font-size: 14px;
+  text-align: center;
+}
+
+.popover-title span {
+  color: #ef4836;
+}
+
+.popover-title .text-primary {
+  color: #111 !important;
+}
+
+.clockpicker input {
+  font-size: 14px;
+  color: #7c8a97;
+}
+
+.clockpicker input:focus {
+  box-shadow: 0 0 0 rgba(0, 123, 255, 0.25);
+  border: 2px solid #f0f0ff;
+  border-radius: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1169px) {
+  .find-box {
+    background: #fff url(../../img/find-box-bg.png) no-repeat scroll -45px 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .find-box {
+    background: #fff url(../../img/find-box-bg.png) no-repeat scroll -120px 0;
+  }
+  .find-text {
+    margin-top: 25px;
+  }
+  .find-text h3 {
+    font-size: 25px;
+  }
+  .find-form form p {
+    margin: 10px 0;
+  }
+}
+@media (max-width: 767px) {
+  .find-box {
+    background: #fff none repeat scroll 0 0;
+  }
+  .find-text {
+    margin-top: 0;
+  }
+  .find-text h3 {
+    color: #001238;
+    text-align: center;
+    font-size: 25px;
+  }
+  .find-form {
+    margin-top: 5px;
+  }
+  .find-form form p {
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+  .gauto-find-area {
+    margin-top: -55px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .find-box {
+    background: #fff none repeat scroll 0 0;
+  }
+  .find-text {
+    margin-top: 0;
+  }
+  .find-text h3 {
+    color: #001238;
+    text-align: center;
+    font-size: 25px;
+  }
+}

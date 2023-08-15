@@ -1,0 +1,113 @@
+/* ===================== TESTIMONIAL ======================*/
+.gauto-testimonial-area {
+  position: relative;
+  background: url(../../img/promo_bg.jpg) no-repeat fixed 0 0 / cover;
+  z-index: 1;
+  padding-bottom: 100px;
+}
+
+.gauto-testimonial-area:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+  z-index: -1;
+}
+
+.gauto-testimonial-area .site-heading h2 {
+  color: #fff;
+}
+
+.single-testimonial {
+  background: #fff none repeat scroll 0 0;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.testimonial-text {
+  position: relative;
+}
+
+.testimonial-text svg {
+  position: absolute;
+  color: #001238;
+  font-size: 80px;
+  font-family: Fontawesome;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+}
+
+.testimonial-meta {
+  margin-top: 30px;
+}
+
+.client-image {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  float: left;
+}
+
+.client-image img {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 50%;
+}
+
+.client-info h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #001238;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.client-info {
+  overflow: hidden;
+}
+
+.client-info p {
+  color: #ec3323;
+}
+.testimonial-slider .slide {
+  padding: 0 15px;
+}
+.testimonial-slider .slick-list {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.testimonial-slider .slick-dots {
+  margin-top: 30px;
+  position: inherit;
+  bottom: 0;
+}
+.testimonial-slider .slick-dots li button:before {
+  display: none;
+}
+.testimonial-slider .slick-dots li button {
+  font-size: 0px;
+  line-height: 0;
+  display: block;
+  width: 6px;
+  height: 12px;
+  padding: 0;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: #ffffff;
+  margin: auto;
+}
+.testimonial-slider .slick-dots li.slick-active button {
+  background: #ec3323;
+}
+.testimonial-slider .slick-dots li {
+  width: auto;
+}

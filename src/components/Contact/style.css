@@ -1,0 +1,129 @@
+/* ===================== CONTACT ======================*/
+.contact-left h3,
+.contact-right h3 {
+  font-size: 24px;
+  color: #001238;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  display: inline-block;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.contact-left form input {
+  width: 100%;
+  border: 2px solid #f0f0ff;
+  padding: 5px 10px;
+  height: 45px;
+  color: #111;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  margin: 10px 15px 10px 0px;
+}
+
+.contact-left form textarea {
+  border: 2px solid #f0f0ff;
+  padding: 5px 10px;
+  margin: 10px 0;
+  color: #111;
+  width: 100%;
+  height: 135px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.contact-left form input:focus,
+.contact-left form textarea:focus {
+  border: 2px solid #ec3323;
+}
+
+.single-contact-field button.gauto-theme-btn {
+  width: auto;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.contact-details p i {
+  color: #ec3323;
+  margin-right: 5px;
+}
+
+.single-contact-btn {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 25px;
+}
+
+.single-contact-btn h4,
+.social-links-contact h4 {
+  font-size: 16px;
+  color: #001238;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  display: block;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.single-contact-btn a {
+  display: inline-block;
+  padding: 10px 16px;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  color: #fff;
+  font-weight: 500;
+  background: #ec3323 none repeat scroll 0 0;
+  border-radius: 4px;
+}
+
+.single-contact-btn a:hover {
+  background: #001238 none repeat scroll 0 0;
+}
+
+.social-links-contact {
+  margin-top: 30px;
+}
+
+.social-links-contact ul li {
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.social-links-contact ul li a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #333;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.social-links-contact ul li a:hover {
+  background: #ec3323 none repeat scroll 0 0;
+  color: #fff;
+  border: 1px solid #ec3323;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact-right {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .contact-right {
+    margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .contact-right {
+    margin-top: 30px;
+  }
+}

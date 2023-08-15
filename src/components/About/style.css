@@ -1,0 +1,125 @@
+/* ===================== ABOUT ======================*/
+.about-left h4 {
+  font-size: 20px;
+  color: #ec3323;
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: "Rubik", sans-serif;
+}
+
+.about-left h2 {
+  font-size: 40px;
+  color: #001238;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  display: inline-block;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.about-list ul {
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+  margin-top: 10px;
+}
+
+.about-list ul li {
+  margin: 5px 0;
+}
+.about-list ul li span {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+  background: #ec3323 none repeat scroll 0 0;
+  border-radius: 2px;
+  line-height: 20px;
+}
+.about-list ul li span svg {
+  fill: #ffffff;
+  height: 12px;
+}
+.about-signature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.signature-left {
+  width: 190px;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 3px solid #f0f0ff;
+}
+
+.signature-right h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #001238;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.about-right {
+  margin-top: 30px;
+}
+
+@media (min-width: 992px) and (max-width: 1169px) {
+  .about-left h2 {
+    font-size: 35px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-left h2 {
+    font-size: 35px;
+  }
+  .gauto-about-area {
+    padding-bottom: 20px !important;
+  }
+}
+@media (max-width: 767px) {
+  .about-left h2 {
+    font-size: 30px;
+  }
+  .about-list ul {
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
+  }
+  .signature-left {
+    width: 130px;
+  }
+  .gauto-about-area {
+    padding-bottom: 50px !important;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .about-left h2 {
+    font-size: 30px;
+  }
+  .about-list ul {
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
+  }
+  .signature-left {
+    width: 130px;
+  }
+  .gauto-about-area {
+    padding-bottom: 50px !important;
+  }
+}

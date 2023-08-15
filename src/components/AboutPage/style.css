@@ -1,0 +1,143 @@
+/* ===================== ABOUT PAGE ======================*/
+.about-page-left h4 {
+  font-size: 20px;
+  color: #ec3323;
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: "Rubik", sans-serif;
+}
+
+.about-page-left h3 {
+  font-size: 36px;
+  color: #001238;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  display: inline-block;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 45px;
+}
+
+.about-page-left p span {
+  color: #111;
+  text-transform: capitalize;
+}
+
+.about-page-left p {
+  margin: 0 0 10px;
+}
+
+.about-page-call {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.page-call-icon {
+  font-size: 50px;
+  margin-right: 30px;
+  color: #ec3323;
+}
+
+.call-info p {
+  text-transform: capitalize;
+  color: #ec3323;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.call-info h4 {
+  color: #001238;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.call-info h4 a {
+  color: #001238;
+}
+
+.about-promo-text {
+  text-align: center;
+  width: 55%;
+  margin: 0 auto;
+}
+
+.gauto-about-promo {
+  padding-bottom: 50px;
+  background: #fbfbfd none repeat scroll 0 0;
+}
+
+.about-promo-text h3 {
+  font-size: 36px;
+  color: #001238;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  display: inline-block;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 45px;
+}
+
+.about-promo-text h3 span {
+  color: #ec3323;
+}
+
+.about-promo-image {
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-page-left h3,
+  .about-promo-text h3 {
+    font-size: 30px;
+  }
+  .about-page-right {
+    margin-top: 30px;
+  }
+  .about-page-right img {
+    width: 100%;
+  }
+  .about-promo-text {
+    width: 80%;
+  }
+}
+@media (max-width: 767px) {
+  .about-page-left h3,
+  .about-promo-text h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .about-page-right {
+    margin-top: 30px;
+  }
+  .about-promo-text {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .about-page-left h3,
+  .about-promo-text h3 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .about-page-right {
+    margin-top: 30px;
+  }
+  .about-promo-text {
+    width: 100%;
+  }
+}

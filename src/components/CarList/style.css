@@ -1,0 +1,326 @@
+/* ===================== CAR LIST ======================*/
+@import "/node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "/node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "/node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "/node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "/node_modules/@syncfusion/ej2-react-calendars/styles/material.css";
+
+.sidebar-widget form p input,
+.sidebar-widget form p select,
+.e-control-wrapper {
+  width: 100% !important;
+  border: 2px solid #f0f0ff !important;
+  padding: 5px 10px;
+  height: 45px !important;
+  color: #111 !important;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  background: #ffffff !important;
+}
+input#datepicker,
+input#timepicker {
+  height: auto !important;
+  border: none !important;
+  font-size: 14px;
+  font-weight: 500;
+}
+.sidebar-widget form p input:focus,
+.sidebar-widget form p select:focus {
+  border: 2px solid #ec3323;
+}
+
+.sidebar-widget form {
+  background: #f4f4f5 none repeat scroll 0 0;
+  padding: 15px;
+}
+
+.sidebar-widget form p {
+  margin-bottom: 10px;
+}
+
+.sidebar-widget form p:last-child {
+  margin-bottom: 0;
+}
+
+.sidebar-widget form p .nice-select.open .list {
+  width: 100%;
+}
+
+.sidebar-widget form p button {
+  margin-top: 20px;
+  background: #fff none repeat scroll 0 0;
+}
+
+.property-page-heading {
+  border: 0px solid #f0f0ff;
+  padding: 7px 15px;
+  background: #f4f4f5 none repeat scroll 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.propertu-page-shortby {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.propertu-page-shortby .nice-select {
+  background-color: #f4f4f5;
+  border-radius: 0;
+  border: solid 0px #e8e8e8;
+  width: 200px;
+}
+
+.propertu-page-head {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.propertu-page-head ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.propertu-page-head ul li.active a {
+  color: #111;
+}
+
+.paging_status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.propertu-page-head ul li a:hover,
+.paging_status p {
+  color: #111;
+}
+
+.propertu-page-shortby label {
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-right: 10px;
+  color: #111;
+  font-size: 14px;
+}
+
+.propertu-page-shortby label i {
+  margin-right: 5px;
+}
+.sidebar-widget {
+  margin-bottom: 30px;
+}
+
+.sidebar-widget:last-child {
+  margin-bottom: 0;
+}
+
+.service-menu {
+  padding: 15px;
+  background: #f4f4f5 none repeat scroll 0 0;
+}
+
+.service-menu li {
+  margin-bottom: 5px;
+}
+
+.service-menu li:last-child {
+  margin-bottom: 0;
+}
+
+.service-menu li a {
+  display: block;
+  padding: 10px 20px;
+  background: #fff none repeat scroll 0 0;
+  color: #001238;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.service-menu li a span {
+  margin-left: 5px;
+}
+
+.service-menu li.active a,
+.service-menu li a:hover {
+  color: #ec3323;
+  padding-left: 25px;
+}
+.car-grid-list .single-offers {
+  text-align: center;
+  padding: 20px;
+  border: 3px solid #f0f0ff;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.offer-image {
+  width: 235px;
+  margin: 0 auto;
+  display: block;
+}
+
+.offer-image img {
+  width: 100%;
+}
+
+.offer-text {
+  margin-top: 20px;
+}
+
+.offer-text h3 {
+  font-size: 23px;
+  color: #001238;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  display: inline-block;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.offer-text h4 {
+  color: #020202;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-top: 8px;
+}
+
+.offer-text h4 span {
+  text-transform: capitalize;
+  color: #ec3323;
+  font-size: 16px;
+}
+
+.offer-action {
+  text-align: center;
+  background: #020202 none repeat scroll 0 0;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  width: 100%;
+  margin: 25px auto 0;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.offer-action a {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 7px 15px;
+  font-weight: 500;
+  color: #fff;
+  font-size: 14px;
+  width: 47%;
+}
+
+.offer-action:after {
+  position: absolute;
+  content: "";
+  width: 66%;
+  height: 100%;
+  background: #ec3323 none repeat scroll 0 0;
+  right: -36px;
+  z-index: -1;
+  -webkit-transform: skewX(40deg);
+  transform: skewX(40deg);
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.offer-action:hover {
+  background: #ec3323 none repeat scroll 0 0;
+}
+
+.offer-action:hover:after {
+  background: #020202 none repeat scroll 0 0;
+}
+
+.offer-text ul {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.offer-text ul li {
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 3px;
+}
+
+.offer-text ul li i {
+  margin-right: 5px;
+  color: #ec3323;
+}
+.pagination-box-row {
+  text-align: left;
+}
+
+.pagination-box-row p {
+  display: inline-block;
+  font-size: 15px;
+  color: #444;
+  margin-right: 15px;
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+  float: none;
+  display: inline-block;
+}
+
+.pagination li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.pagination li:last-child {
+  margin-right: 0;
+}
+
+.pagination li a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  font-size: 15px;
+  line-height: 35px;
+  border-radius: 5px;
+  color: #111;
+  font-weight: 500;
+}
+
+.pagination li.active a,
+.pagination li a:hover {
+  background: #101010 none repeat scroll 0 0;
+  color: #fff;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .car-listing-right {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .car-listing-right {
+    margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .car-listing-right {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,129 @@
+/* ===================== BLOG LIST ======================*/
+.sidebar-widget {
+  margin-bottom: 30px;
+}
+
+.sidebar-widget:last-child {
+  margin-bottom: 0;
+}
+
+.service-menu {
+  padding: 15px;
+  background: #f4f4f5 none repeat scroll 0 0;
+}
+
+.service-menu li {
+  margin-bottom: 5px;
+}
+
+.service-menu li:last-child {
+  margin-bottom: 0;
+}
+
+.service-menu li a {
+  display: block;
+  padding: 10px 20px;
+  background: #fff none repeat scroll 0 0;
+  color: #001238;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.service-menu li a span {
+  margin-left: 5px;
+}
+
+.service-menu li.active a,
+.service-menu li a:hover {
+  color: #ec3323;
+  padding-left: 25px;
+}
+.service-details-right h3,
+.sidebar-widget h3 {
+  font-size: 30px;
+  color: #001238;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  display: inline-block;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 45px;
+}
+
+.service-details-right p {
+  margin: 0 0 10px;
+}
+
+.pad-right-sm {
+  padding-right: 7px;
+}
+
+.pad-left-sm {
+  padding-left: 7px;
+}
+
+.service-details-image {
+  margin-top: 10px;
+}
+
+.service-details-list ul {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+}
+
+.service-details-list li {
+  margin: 5px 0;
+}
+
+.service-details-list li i {
+  color: #ec3323;
+  margin-right: 5px;
+}
+
+.service-accordion {
+  margin-top: 20px;
+}
+
+.service-accordion h3,
+.sidebar-widget h3 {
+  font-size: 20px;
+}
+
+.Tags-catagory {
+  padding: 15px;
+  background: #f4f4f5 none repeat scroll 0 0;
+}
+
+.Tags-catagory li {
+  display: inline-block;
+  border: medium none !important;
+  padding: 0 !important;
+  margin: 2px;
+}
+
+.Tags-catagory a {
+  color: #001238;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: inline-block;
+  padding: 5px 15px;
+  background: #fff none repeat scroll 0 0;
+  border-radius: 5px;
+}
+
+.Tags-catagory a:hover {
+  color: #ec3323;
+}
+
+.blog-text ul li svg {
+  margin-right: 5px;
+  fill: #ec3323;
+}
+.blog-page-left .pagination {
+  margin-top: 50px;
+}

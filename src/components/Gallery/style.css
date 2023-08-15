@@ -1,0 +1,164 @@
+/* ===================== GALLERY ======================*/
+.gauto-gallery-area {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.single-gallery {
+  position: relative;
+  display: block;
+  margin-top: 30px;
+  z-index: 6;
+}
+
+.single-gallery .img-holder {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.single-gallery .img-holder img {
+  width: 100%;
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+  -webkit-transition: all 700ms ease;
+  transition: all 700ms ease;
+}
+
+.single-gallery .overlay-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: rgba(0, 0, 0, 0.78);
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 700ms ease 100ms;
+  transition: all 700ms ease 100ms;
+}
+
+.single-gallery .overlay-content .inner-content {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.single-gallery .overlay-content .inner-content .title-box {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: perspective(1200px) rotateX(-90deg) translateZ(-45px);
+  transform: perspective(1200px) rotateX(-90deg) translateZ(-45px);
+  -webkit-transition: all 300ms ease 100ms;
+  transition: all 300ms ease 100ms;
+}
+
+.title-box h3 {
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  display: inline-block;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.single-gallery .overlay-content .inner-content .title-box h3 a {
+  color: #ffffff;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.single-gallery .img-holder .link-zoom-button {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  text-align: center;
+  display: block;
+  background: transparent;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: perspective(1200px) rotateX(90deg) translateZ(-45px);
+  transform: perspective(1200px) rotateX(90deg) translateZ(-45px);
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -webkit-transition: all 300ms ease 200ms;
+  transition: all 300ms ease 200ms;
+  z-index: 3;
+}
+
+.single-gallery .img-holder .link-zoom-button .single-button {
+  position: relative;
+  display: block;
+  width: 50%;
+  float: left;
+}
+
+.single-gallery .img-holder .link-zoom-button .single-button a {
+  position: relative;
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  line-height: 60px;
+  font-weight: 500;
+  background: #ec3323;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.single-gallery .img-holder .link-zoom-button .single-button {
+  position: relative;
+  display: block;
+  width: 50%;
+  float: left;
+}
+
+.single-gallery .img-holder .link-zoom-button .single-button a.zoom {
+  color: #ffffff;
+  background: #131313;
+}
+
+.single-gallery:hover .img-holder img {
+  -webkit-transform: scale(1.2) rotate(2deg);
+  transform: scale(1.2) rotate(2deg);
+}
+
+.single-gallery:hover .overlay-content {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.single-gallery:hover .overlay-content .inner-content .title-box {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  -webkit-transition: all 700ms ease 500ms;
+  transition: all 700ms ease 500ms;
+}
+
+.single-button a span {
+  margin-right: 5px;
+}
+
+.single-gallery:hover .img-holder .link-zoom-button {
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -webkit-transition: all 700ms ease 800ms;
+  transition: all 700ms ease 800ms;
+}

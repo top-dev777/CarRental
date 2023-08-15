@@ -1,0 +1,80 @@
+/* ===================== ERROR ======================*/
+.notfound-box {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.notfound-box h2 {
+  font-size: 130px;
+  color: #001238;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  display: inline-block;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 130px;
+}
+
+.notfound-box h3 {
+  font-size: 30px;
+  color: #001238;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  display: block;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.notfound-box a.gauto-btn {
+  margin: 30px 0 0 0;
+  color: #ec3323;
+}
+
+.notfound-box a.gauto-btn:hover {
+  color: #fff;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .notfound-box {
+    width: 80%;
+  }
+  .notfound-box h2 {
+    font-size: 90px;
+    line-height: 90px;
+  }
+  .notfound-box h3 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 767px) {
+  .notfound-box {
+    width: 100%;
+  }
+  .notfound-box h2 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+  .notfound-box h3 {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .notfound-box {
+    width: 100%;
+  }
+  .notfound-box h2 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+  .notfound-box h3 {
+    font-size: 22px;
+  }
+}

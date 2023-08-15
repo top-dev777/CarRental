@@ -1,0 +1,188 @@
+/* ===================== TEAM ======================*/
+.gauto-driver-area {
+  padding-bottom: 70px;
+}
+
+.single-driver {
+  margin-top: 30px;
+}
+
+.driver-img-details img {
+  width: 100%;
+}
+
+.driver-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.driver-image img {
+  width: 100%;
+}
+
+.driver-image .hover {
+  position: absolute;
+  right: 0px;
+  top: 20px;
+  z-index: 111;
+}
+
+.driver-image .hover .social-icon li + li {
+  margin-top: 10px;
+  display: block;
+}
+
+.driver-image .hover .social-icon li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #ec3323;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 14px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.driver-image .hover .social-icon li a:hover {
+  background-color: #001238;
+}
+
+.driver-image .hover .social-icon li:nth-child(1) {
+  position: absolute;
+  top: 20px;
+  -webkit-transform: translateX(80px);
+  transform: translateX(80px);
+  -webkit-transition: transform 500ms;
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+  -webkit-transition-delay: 100ms;
+  transition-delay: 100ms;
+}
+
+.driver-image .hover .social-icon li:nth-child(2) {
+  position: absolute;
+  top: 60px;
+  -webkit-transform: translateX(80px);
+  transform: translateX(80px);
+  -webkit-transition: transform 500ms;
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+  -webkit-transition-delay: 200ms;
+  transition-delay: 200ms;
+}
+
+.driver-image .hover .social-icon li:nth-child(3) {
+  position: absolute;
+  top: 110px;
+  -webkit-transform: translateX(80px);
+  transform: translateX(80px);
+  -webkit-transition: transform 500ms;
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+  -webkit-transition-delay: 300ms;
+  transition-delay: 300ms;
+}
+
+.driver-image .hover .social-icon li:nth-child(4) {
+  position: absolute;
+  top: 160px;
+  -webkit-transform: translateX(80px);
+  transform: translateX(80px);
+  -webkit-transition: transform 500ms;
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+  -webkit-transition-delay: 400ms;
+  transition-delay: 400ms;
+}
+
+.single-driver:hover .driver-image .hover .social-icon li:nth-child(1) {
+  -webkit-transform: translateX(-60px);
+  transform: translateX(-60px);
+}
+
+.single-driver:hover .driver-image .hover .social-icon li:nth-child(2) {
+  -webkit-transform: translateX(-60px);
+  transform: translateX(-60px);
+}
+
+.single-driver:hover .driver-image .hover .social-icon li:nth-child(3) {
+  -webkit-transform: translateX(-60px);
+  transform: translateX(-60px);
+}
+
+.single-driver:hover .driver-image .hover .social-icon li:nth-child(4) {
+  -webkit-transform: translateX(-60px);
+  transform: translateX(-60px);
+}
+
+.driver-image {
+  position: relative;
+}
+
+.driver-image:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000 none repeat scroll 0 0;
+  opacity: 0.1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+}
+
+.driver-text {
+  text-align: center;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
+  padding: 30px 15px;
+}
+
+.driver-text h3 {
+  font-size: 22px;
+  color: #001238;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  display: inline-block;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.driver-text a {
+  color: #001238;
+}
+
+.driver-text a h3:hover {
+  color: #ec3323;
+}
+
+.driver_page .pagination-box-row {
+  text-align: center;
+}
+
+.load-more {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.load-more a.gauto-btn {
+  color: #ec3323;
+  margin-bottom: 0;
+}
+
+.load-more a.gauto-btn:hover {
+  color: #fff;
+}

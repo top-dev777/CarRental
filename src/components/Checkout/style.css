@@ -1,0 +1,48 @@
+/* ===================== CHECKOUT ======================*/
+.checkout-left-box h3 {
+  font-size: 23px;
+  color: #001238;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  display: block;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 45px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f0f0ff;
+}
+
+.checkout-left-box form .checkout-form {
+  margin-top: 15px;
+}
+
+.checkout-left-box form input {
+  width: 100%;
+  border: 2px solid #f0f0ff;
+  padding: 5px 10px;
+  height: 45px;
+  color: #111;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.checkout-left-box form textarea {
+  width: 100%;
+  border: 2px solid #f0f0ff;
+  padding: 5px 10px;
+  height: 135px;
+  color: #111;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.checkout-left-box form input:focus {
+  border: 2px solid #ec3323;
+}
+
+.checkout-left-box form label {
+  color: #001238;
+}
