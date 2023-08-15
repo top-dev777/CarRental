@@ -112,7 +112,7 @@ const Header = () => {
                     <img src={globe} alt="globe" />
                   </div>
                   <div className="header-promo-info">
-                    <h3>Newyork, USAA</h3>
+                    <h3>Newyork, USA</h3>
                     <p>{t("melbourne_city")}</p>
                   </div>
                 </div>
